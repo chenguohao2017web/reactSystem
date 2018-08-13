@@ -1,8 +1,5 @@
 const Admin = require('../mongoose/models/admin')
 
-
-
-
 const register = async (ctx) => {
   const req = ctx.request
   let body = req.body

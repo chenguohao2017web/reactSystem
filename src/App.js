@@ -8,9 +8,9 @@ export default class App extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route path="/" component={Home} exact />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+          <Route path="/" component={Home} />
         </Switch>
       </Router>
     )
